@@ -5,17 +5,6 @@ namespace ConversoresUWP
 {
     namespace Monedas
     {
-        /*
-        public class FloatToEuro_SepMil_2Dec : IValueConverter
-        {
-            public object Convert(object value, Type targetType, object parameter, string language)
-                => ((float)value).ToString("#,##0.00 €");
-
-            public object ConvertBack(object value, Type targetType, object parameter, string language)
-                => throw new NotImplementedException();
-        }
-        */
-
         public class FloatToEuro_SepMil_2Dec : IValueConverter
         {
             public object Convert(object value, Type targetType, object parameter, string language)
